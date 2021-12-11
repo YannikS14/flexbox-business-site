@@ -13,30 +13,45 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Noto+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Carpenter Miller - London</title>
   </head>
   <body>
-    <header>
-      <div class="logo"></div>
+    <header id="home">
+      <a href="#home" id="logo">
+        <img src="./img/logo_wheel-saw.png" alt="Icon sawblade" />
+        <p>Carpenter<br />Miller</p>
+      </a>
       <nav>
         <ul>
-          <li class="nav-item">Home</li>
-          <li class="nav-item">Our Mission</li>
-          <li class="nav-item">Products</li>
-          <li class="nav-item">Our Team</li>
-          <li class="nav-item">Contact</li>
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="#mission">Our Mission</a></li>
+          <li class="nav-item"><a href="#products">Products</a></li>
+          <li class="nav-item"><a href="#team">Our Team</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="mission">
-        <h1>Carpenter Miller - Your carpenter in London</h1>
+      <section id="mission">
+        <h1>Carpenter Miller</h1>
+        <h2>Your carpenter in London</h2>
         <p>
           We provide the finest furnishings and other beautiful pieces
           made of wood.
         </p>
+        <img src="./img/bg_mission_section.jpg" alt="" />
       </section>
-      <section class="products">
+      <section id="products">
         <h2>Products</h2>
         <article class="products-wrapper">
           <div class="product-card">
@@ -63,7 +78,7 @@
           </div>
         </article>
       </section>
-      <section class="team">
+      <section id="team">
         <h2>Our Team</h2>
         <p>
           We are a family run business since 1897. These are our
@@ -71,33 +86,48 @@
         </p>
         <article class="team-wrapper">
           <div class="team-item">
-            <img src="" alt="avatar mike miller" />
+            <img
+              src="./img//avatar_mike_miller.jpg"
+              alt="avatar mike miller"
+            />
             <h3>Mike Miller</h3>
             <p class="subtitle">Foreman</p>
           </div>
           <div class="team-item">
-            <img src="" alt="avatar peter fox" />
+            <img
+              src="./img/avatar_peter_fox.jpg"
+              alt="avatar peter fox"
+            />
             <h3>Peter Fox</h3>
             <p>Journeyman</p>
           </div>
           <div class="team-item">
-            <img src="" alt="avatar jake wright" />
+            <img
+              src="./img/avatar_jake_wright.jpg"
+              alt="avatar jake wright"
+            />
             <h3>Jake Wright</h3>
             <p>Journeyman</p>
           </div>
           <div class="team-item">
-            <img src="" alt="avatar lois griffin" />
+            <img
+              src="./img/avatar_lois_griffin.jpg"
+              alt="avatar lois griffin"
+            />
             <h3>Lois Griffin</h3>
             <p>Journeyman</p>
           </div>
           <div class="team-item">
-            <img src="" alt="avatar albert blake" />
+            <img
+              src="./img/avatar_albert_blake.jpg"
+              alt="avatar albert blake"
+            />
             <h3>Albert Blake</h3>
             <p>Apprentice</p>
           </div>
         </article>
       </section>
-      <section class="contact">
+      <section id="contact">
         <h2>Contact</h2>
         <h3>Carpenter Miller</h3>
         <p>Main road 123</p>
