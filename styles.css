@@ -34,6 +34,12 @@ body {
   color: var(--dark-gray);
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'Bakbak One', cursive;
+}
+
 h1 {
   font-size: 5rem;
   margin-bottom: 1rem;
