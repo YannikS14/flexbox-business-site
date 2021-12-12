@@ -256,9 +256,61 @@ nav a:active {
 /*
     Team Section Styling
 */
+#team {
+  background: rgb(var(--light-green));
+  background: linear-gradient(
+    135deg,
+    rgba(var(--light-green), 1) 55%,
+    rgba(var(--dark-green), 1) 100%
+  );
+}
+
+#team h3,
+#team h4,
+#team p {
+  color: #fff;
+}
+
+#team > p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.team-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  padding: 0 5vw 2rem 5vw;
+}
+
+.team-item {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.25s ease-in;
+}
+
+.team-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
 .team-item > img {
   border-radius: 50%;
   max-width: 200px;
+}
+
+.team-item h3 {
+  margin: 1rem 0;
+}
+
+.team-item p {
+  font-size: 1.5rem;
 }
 
 /*
